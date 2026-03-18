@@ -48,17 +48,17 @@ li {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    height: 50vh;
-    padding: 150px;
+    height: 70vh;
+    padding: 0 150px;
 }
 
 .pageTwo {
     background-color: #333;
-    height: 100vh;
+    height: 70vh;
 }
 
 .pageOne .infos {
-    width: 600px;
+    width: 700px;
     color: white;
     gap: 32px;
 }
@@ -70,6 +70,7 @@ li {
 
 .pageOne .infos p {
     margin-bottom: 16px;
+    width: 500px;
 }
 
 .pageOne .image {
@@ -89,14 +90,185 @@ li {
     height: 40px;
     border-radius: 6px;
     border: none;
-    background-color: #3882F6;
+    background-color: #ff2c2c;
     color: white;
     font-size: 16px;
     font-weight: 900;
 }
 
 .pageOne button:hover {
-    background-color: white;
-    color: #3882F6;
+    background-color: #610101;
+    color: white;
     cursor: pointer;
+}
+
+.pageTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imgs/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 70vh;
+    padding: 0 150px;
+}
+
+
+.pageTwo .infos {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.pageTwo .card {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    padding: 16px;
+
+    text-align: center;
+}
+
+.pageTwo .cardMe {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+
+
+    border: white solid 2px;
+    border-radius: 20px;
+}
+
+.pageTwo .cardMe img {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: center;
+}
+
+.pageTwo .card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    overflow: hidden;
+    display: block;
+
+
+    border: white solid 2px;
+    border-radius: 20px;
+}
+
+.pageTwo .card-image img {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    object-position: left;
+}
+
+
+.pageTwo h1 {
+    font-size: 32px;
+    text-align: center;
+
+    margin-bottom: 32px;
+    color: white;
+}
+
+.pageTwo p {
+    font-size: 16px;
+    text-align: center;
+
+    color: white;
+}
+
+
+.pageTwo infos {
+    width: 300px;
+    color: white;
+    gap: 32px;
+}
+
+.pageThree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f3d5;
+
+    height: 70vh;
+    padding: 0 150px;
+}
+
+.pageThree h1 {
+    width: 600px;
+    color: #333;
+    gap: 32px;
+}
+
+
+.pageThree p {
+    width: 600px;
+    color: #333;
+    gap: 32px;
+    text-align: right;
+}
+
+
+.pageFour {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+
+    height: 30vh;
+    padding: 0 150px;
+}
+
+.pageFour .content {
+    display: flex;
+    background-color: #fefefe;
+    width: 100%;
+    height: 15vh;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 16px;
+    gap: 50px
+
+}
+
+.pageFour button {
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: #ff2c2c;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+
+    margin-top: 16px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
 }
